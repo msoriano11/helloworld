@@ -1,8 +1,36 @@
-div {
-   margin-bottom: 10px;
+body, p{
+   font-family: Helvetica, Calibri, sans-serif
 }
 
-label {
-   display: inline-block;
-   width: 100px;
+h1, h2{
+   font-family: 'Courier New', Helvetica, monospace;
+   color: red;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited{
+   color: red;
+}
+
+ul{
+   list-style: square;
+}
+
+ol{
+   list-style: lower-roman;
+}
+
+table{
+   border: 2px solid gray;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+tr:hover {
+  background-color: lightblue;
 }
